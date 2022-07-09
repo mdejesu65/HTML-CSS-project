@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'vidaloka';
+    
+}
+
+h1 {
+    color: blueviolet;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: rgb(201, 155, 245);
+  }
+  
+main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+  }
+
+  .main img {
+    border:  7px solid blueviolet;
+    width: 350px;
+    height: 520px;
+  }  
+
+main .about {
+  width: 300px;
+  
+}
+
+textarea {
+  color: rgb(231, 140, 20);
+  font-size: 15px;
+}
+
+.main p {
+  font-size: 18px;
+  font-family:'vidaloka' ;
+  background-color: aqua;
+  color: rgb(99, 22, 200);
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+   
+}
+
+.Menu {
+    color: blue;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.Menu li {
+    list-style: none;
+}
+
+.Menu a {
+    color: blueviolet;
+}
+
+.Menu a:hover {
+    background-color: aqua;
+}
+
+.brand h1 {
+  font-size: 25px;
+}
+
+.portfolio-heading h2 {
+  width: 100vw;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(93, 61, 189);
+ 
+}
+
+.portfolio-heading {
+  width: 100vw;
+  padding: 2em;
+}
+
+.portfolio .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #2b3058;
+  margin: 1em;
+}
+
+.card__img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/projectimg2.jpg);
+  background-size: cover;
+  background-color: aqua;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/Projectimg3.jpg);
+  background-size: cover;
+  background-color: aqua;
+}
+
+.card__title {
+  background-color: rgb(153, 226, 226);
+  color: rgb(63, 4, 118);
+  font-family: 'vidaloka';
+  font-size: 18px;
+  text-align: center;
+}
+
+.button-content, .project-details-button {
+  text-align: center;
+  justify-content: center;
+  background-color: aqua;
+  color: rgb(52, 113, 226);
+}
+
+
+.footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .social-networks a {
+    font-size: 1.5em;
+  }
+
+  .contact-section {
+    width: 100vw;
+    background-color: blueviolet;
+    color: antiquewhite;
+  }
+
+  
+.contact-section {
+    padding: 5em;
+  }
+  
+  .container-contact {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: aqua;
+  }
+
+  .container-contact h4 {
+    font-family: 'vidaloka';
+    font-size: 30px;
+  }
+
+  .form-group textarea {
+    color: rgb(5, 15, 15);
+  }
+  
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+  
+  }
+
+  .contact-section h2 {
+    font: bold;
+    font-size: 50px;
+    font-family: 'vidaloka';
+  }
+
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    color: black;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: rgb(21, 11, 11);
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: antiquewhite;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(175, 245, 245);
+  }
